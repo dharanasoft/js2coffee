@@ -11,16 +11,13 @@ Set up:
 
 Test:
 
-    # (Any of these will work:)
-    $ hyde start
+    $ hyde start          # ...any of these will work
     $ rackup
 
 Build HTML files:
 
-    $ hyde build
-    # ...Then look in _public/
+    $ hyde build          # ...Then look in _public/
 
 Deploy:
 
-    $ rake deploy
-    # ...This commits what's in _public/ and pushes it
+    $ rake deploy         # ...This commits what's in _public/ and pushes it
