@@ -1,8 +1,26 @@
-    gem install hydeweb
+# Js2coffee website
 
-    git clone git@github.com:rstacruz/js2coffee.git -b hyde     js2csite
-    git clone git@github.com:rstacruz/js2coffee.git -b gh-pages js2csite/_public
+Made with hyde.
 
-    cd js2csite
-    hyde build
+    $ gem install hydeweb
 
+Set up:
+
+    $ command git clone git@github.com:rstacruz/js2coffee.git -b hyde     js2c_site
+    $ command git clone git@github.com:rstacruz/js2coffee.git -b gh-pages js2c_site/_public
+
+Test:
+
+    # (Any of these will work:)
+    $ hyde start
+    $ rackup
+
+Build HTML files:
+
+    $ hyde build
+    # ...Then look in _public/
+
+Deploy:
+
+    $ rake deploy
+    # ...This commits what's in _public/ and pushes it
