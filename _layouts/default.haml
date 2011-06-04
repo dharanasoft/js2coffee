@@ -16,7 +16,7 @@
     - if meta.description?
       %meta{:name => 'description', :content => meta.description}
 
-    %link{:rel => 'stylesheet', :href => rel('/css/style.css')}
+    != style_tag 'css/style.css'
 
     %link(href='http://fonts.googleapis.com/css?family=Muli:regular,bold' rel='stylesheet' type='text/css')
 
