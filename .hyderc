@@ -20,6 +20,7 @@ ignore:
 - config.ru
 - **/.*
 - **/_*.scss
+- tmp/*
 
 # Optional options for layout engines
 tilt_options:
